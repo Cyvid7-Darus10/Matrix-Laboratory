@@ -30,7 +30,7 @@ function isvalid = valid_date(y, m, d)
    end
 end
 
-////////////////////////////////////////////////////////////////////
+###############################################
 function valid = valid_date(year, month, day)
     if  isscalar(year) && isscalar(month) && isscalar(day) && month <= 12 && day <= 31 && year > 40 && day > 0
         if(mod(year,400) == 0 || (mod(year,4) == 0 && mod(year,100) ~= 0))
